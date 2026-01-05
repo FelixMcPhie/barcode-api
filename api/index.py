@@ -29,6 +29,7 @@ def generate_barcode():
             'write_text': show_text,  # Controls whether text appears below barcode
             'text_distance': 5,        # Distance between barcode and text
             'module_height': 15.0,     # Height of the barcode bars
+            'font_size': 10,           # Size of the text below barcode (default is 10)
         }
 
         # Generate the barcode with custom writer options
